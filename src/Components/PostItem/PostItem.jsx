@@ -21,13 +21,13 @@ export default function PostItem (){
             <div className='postitem' width={scrwidth}>
                  <More open={open} onClose={handleClose} />
                 <div className='header'>
-                    <img src="https://source.unsplash.com/50x50/?dog" alt="postedby"/>
+                    <img src="https://source.unsplash.com/50x50/?logo" alt="postedby"/>
                     <span>save pets org </span>
-                    <button className='more'  onClick={handleClickOpen}><MoreHorizOutlinedIcon fontSize='large'/></button>
+                    <button className='more'  onClick={handleClickOpen}><MoreHorizOutlinedIcon/></button>
 
                 </div>
                 <div className='content' width={scrwidth}>
-                    <img src="https://source.unsplash.com/400x600/?dog" width={scrwidth} alt="dog"/>
+                    <img src="https://source.unsplash.com/400x500/?dog" width={scrwidth} alt="dog"/>
                 </div>
                 <div className='footer'>
                     <div className='favbar'>

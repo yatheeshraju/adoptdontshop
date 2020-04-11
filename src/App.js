@@ -6,6 +6,7 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import Home from './Components/Home/Home';
 import Register from './Components/Register/Register';
 import SignIn from './Components/SignIn/SignIn';
+import Profile from './Components/Profile/Profile';
 
 
 function App() {
@@ -16,13 +17,16 @@ function App() {
         <Route exact path='/' component={LandingPage}/>
       </Switch>
       <Switch>
-        <Route exact path='/register' component={Register}/>
+        <Route  path='/register' component={Register}/>
       </Switch>
       <Switch>
-        <Route exact path='/home' component={Home}/>
+        <Route  path='/home' component={Home}/>
       </Switch>
       <Switch>
-        <Route exact path='/signin' component={SignIn}/>
+        <Route  path='/signin' component={SignIn}/>
+      </Switch>
+      <Switch>
+        <Route  path='/profile' component={Profile} />
       </Switch>
       </BrowserRouter>
     </div>

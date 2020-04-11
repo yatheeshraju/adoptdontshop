@@ -1,0 +1,53 @@
+.postitem{
+    padding: 5px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    .header{
+        display: flex;
+        height: 50px;
+        align-items: center;
+        img{
+            padding:5px;;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        span{
+            padding:0px 0px 0px 15px ;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .more{
+            margin-left: auto;
+            background-color: white;
+            border: none;
+            outline: none;
+        }
+    }
+    .content{
+        display: flex;
+        align-items: center;
+    }
+    .footer{
+        .favbar,.favcount{
+            display: flex;
+            justify-content: space-between;
+            .likes,.comments{
+                padding-top: 5px;
+                background-color: white;
+                border: none;
+                outline: none;
+            }
+            span{
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:500px){
+    .postitem{
+        max-width: 500px;
+    }
+}

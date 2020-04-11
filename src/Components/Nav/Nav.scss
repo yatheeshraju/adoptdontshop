@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 55px;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    align-items: center;
+        .add{
+            background-color: white;
+            border: none;
+            outline: none;
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: 100;
+            font-family: 'Pacifico', cursive;
+            min-width: 300px;
+            text-align: center;
+        }
+        .message{
+            margin-left: auto;
+            background-color: white;
+            border: none;
+            outline: none;
+        }
+    
+}
+
+@media only screen and (min-width:500px){
+    .nav{
+            width:500px ;
+            padding: 0 25vw 0 25vw;
+        
+    }
+}

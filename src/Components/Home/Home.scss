@@ -1,0 +1,34 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .spacer{
+        padding-top:50px;
+    }
+    
+    .btn{
+        width: 300px;
+        height: 55px;
+        background-color: white;
+        border: none;
+        font-size: x-large;
+        color:yellowgreen;
+        font-weight:500;
+        outline: none;
+        box-shadow: 0px 10px 10px rgba(12,13,14,0.15);
+        &:hover{
+            box-shadow: 0px 15px 15px rgba(12,13,14,0.15);
+        }
+    }
+
+}
+
+@media only screen and (min-width:500px){
+.home{
+    div{
+        width: 100%;
+    }
+}
+}

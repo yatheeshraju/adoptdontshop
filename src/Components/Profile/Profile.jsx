@@ -16,7 +16,7 @@ export default class Profile extends Component {
             scrwidth=500
         }
         return (
-            <div>
+            <div >
                 <div className='profile_nav'>
                 <button className='back' onClick={this.handleBack}><ArrowBack fontSize='large'/></button>
                 <span className='profile_name'>user name</span>
